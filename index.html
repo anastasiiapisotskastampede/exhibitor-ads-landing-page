@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+
+  <title>Exhibitor Advertising</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      overflow-x: hidden;
+      background: #ffffff;
+    }
+
+    .desktop-version,
+    .mobile-version {
+      width: 100%;
+    }
+
+    .desktop-version img,
+    .mobile-version img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .desktop-version {
+      display: block;
+    }
+
+    .mobile-version {
+      display: none;
+    }
+
+    @media screen and (max-width: 900px) {
+      .desktop-version {
+        display: none;
+      }
+
+      .mobile-version {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="desktop-version">
+    <img src="Slide 16_9 - 6.svg" alt="Exhibitor Advertising">
+  </div>
+
+  <div class="mobile-version">
+    <img src="iPhone 16 & 17 Pro Max - 1.svg" alt="Exhibitor Advertising">
+  </div>
+
+</body>
+</html>
